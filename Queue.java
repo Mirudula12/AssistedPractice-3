@@ -13,7 +13,7 @@ public class Queue {
 			int ch=sc.nextInt();
 			switch(ch) {
 			case 1: if(rear==size-1) {
-				System.out.println("Queue is full ni insertions");
+				System.out.println("Queue is full no insertions");
 			}
 			else {
 				System.out.println("enter the ele to insert");
@@ -33,7 +33,7 @@ public class Queue {
 			break;
 			
 			case 3: if((front==-1 && rear==-1) || (front>rear)) {
-				System.out.println("Queue is empty no delete");
+				System.out.println("Queue is empty");
 			}
 			else {
 				for(int i=front;i<=rear;i++)
