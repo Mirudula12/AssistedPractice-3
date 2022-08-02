@@ -8,7 +8,6 @@ public class LinkList {
 		private int data;
 		private Node next;
 		public Node(int data) {
-			super();
 			this.data=data;
 			this.next=null;
 		}
